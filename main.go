@@ -1,12 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"example.com/GoLang-Practice/utility"
+)
+
+
 
 func main() {
 	a := 49
 	fmt.Println(a)
-	b := "main something"
+	b := "main file create for practice purpose"
 	fmt.Println(b)
+
+	fmt.Println(utility.GetMyName())
+	fmt.Println(utility.GetName())
+
 }
 
 
