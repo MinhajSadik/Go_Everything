@@ -27,6 +27,7 @@ func main() {
 	scores[2]  = 32
 	scores = append(scores, 98)
 
+
 	fmt.Println(scores, len(scores))
 
 	//slice range
