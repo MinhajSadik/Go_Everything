@@ -1,8 +1,12 @@
 package controllers
 
+import (
+	controllerHelper "example.com/GoLang-Practice/utility/helper"
+)
 
 func Controller() string{
-	return "controllers working"
+	// fmt.Println(controllerHelper.GetName())
+	return controllerHelper.GetName()
 }
 
 

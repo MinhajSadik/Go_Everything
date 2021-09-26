@@ -2,5 +2,5 @@ package helper
 
 
 func GetName() string{
-	return "helper"
+	return "holper"
 }
