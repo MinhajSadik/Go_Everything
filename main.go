@@ -3,10 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	a:= 49;
+	a := 49
 	fmt.Println(a)
 }
-
 // Data Types Of Go Language
 /* 
 // Basic
