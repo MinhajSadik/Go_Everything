@@ -1,10 +1,8 @@
 package controllers
 
-import "fmt"
 
-
-func Controller() {
-	fmt.Println("Controllers")
+func Controller() string{
+	return "controllers working"
 }
 
 

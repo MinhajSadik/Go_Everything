@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"example.com/GoLang-Practice/controllers"
 	"example.com/GoLang-Practice/utility"
 )
 
@@ -16,6 +17,7 @@ func main() {
 
 	fmt.Println(utility.GetMyName())
 	fmt.Println(utility.GetName())
+	fmt.Println(controllers.Controller())
 
 }
 
