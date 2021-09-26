@@ -1,6 +1,6 @@
 package helper
 
-import "fmt"
 
-
-func Helper
+func GetName() string{
+	return "helper"
+}
