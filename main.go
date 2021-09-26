@@ -5,6 +5,8 @@ import "fmt"
 func main() {
 	a := 49
 	fmt.Println(a)
+	b := "main something"
+	fmt.Println(b)
 }
 // Data Types Of Go Language
 /* 
