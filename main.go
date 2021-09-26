@@ -8,6 +8,9 @@ func main() {
 	b := "main something"
 	fmt.Println(b)
 }
+
+
+
 // Data Types Of Go Language
 /* 
 // Basic
