@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	// "example.com/GoLang-Practice/controllers"
-	// "example.com/GoLang-Practice/utility"
-	// myHelper "example.com/GoLang-Practice/utility/helper"
+
+	"example.com/GoLang-Practice/controllers"
+	"example.com/GoLang-Practice/utility"
+	myHelper "example.com/GoLang-Practice/utility/helper"
 )
 
 func main() {
@@ -14,10 +15,10 @@ func main() {
 	b := "main file create for practice purpose"
 	fmt.Println(b)
 
-	// fmt.Println(utility.GetMyName())
-	// fmt.Println(utility.GetName())
-	// fmt.Println(controllers.Controller())
-	// fmt.Println(myHelper.GetName())
+	fmt.Println(utility.GetMyName())
+	fmt.Println(utility.GetName())
+	fmt.Println(controllers.Controller())
+	fmt.Println(myHelper.GetName())
 
 	var names = [4]string { "minhaj", "sadik", "ahmed" , "sharminhaj"}
 	var age = 24;
