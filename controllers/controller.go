@@ -5,7 +5,6 @@ import (
 )
 
 func Controller() string{
-	// fmt.Println(controllerHelper.GetName())
 	return myHelper.GetName()
 }
 
