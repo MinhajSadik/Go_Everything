@@ -1,7 +1,17 @@
 package main
-	const Ami = "Minhaj"
+
+import "fmt"
 
 func main() {
+	// // //Array in GoLang
+	// var arr [4]int = [4]int{1, 2, 3, 4}
+	// var arr1 = [...]int{1, 2, 3, 4, 5, 6}
+
+	// fmt.Println("arr", arr, "arr1", arr1)
+
+	var arr2 = []int{1, 2, 3, 4, 5, 6}
+	fmt.Println(arr2)
+
 	// b := "main file create for practice purpose"
 	// const ami = "minhaj"
 	// a := 49
