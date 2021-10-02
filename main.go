@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// // //Array in GoLang
 	// var arr [4]int = [4]int{1, 2, 3, 4}
@@ -9,9 +7,10 @@ func main() {
 
 	// fmt.Println("arr", arr, "arr1", arr1)
 
-	var arr2 = []int{1, 2, 3, 4, 5, 6}
-	fmt.Println(arr2)
+	// var arr2 = []int{1, 2, 3, 4, 5, 6}
+	// fmt.Println(arr2)
 
+	
 	// b := "main file create for practice purpose"
 	// const ami = "minhaj"
 	// a := 49
