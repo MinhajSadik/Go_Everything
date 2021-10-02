@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// // //Array in GoLang
 	// var arr [4]int = [4]int{1, 2, 3, 4}
@@ -43,6 +45,11 @@ func main() {
 
 	// fmt.Println(rangeOne, rangeTwo, rangeThree, age, names)
 
+	var x int = 90
+	var y  = &x
+
+	fmt.Println(x)
+	fmt.Println("y", *y)
 }
 
 
