@@ -10,7 +10,7 @@ func main() {
 	// var arr2 = []int{1, 2, 3, 4, 5, 6}
 	// fmt.Println(arr2)
 
-	
+
 	// b := "main file create for practice purpose"
 	// const ami = "minhaj"
 	// a := 49
@@ -44,29 +44,5 @@ func main() {
 	// fmt.Println(rangeOne, rangeTwo, rangeThree, age, names)
 
 }
-
-
-
-// Data Types Of Go Language
-/* 
-// Basic
-// Aggregate
-// Reference
-// Interface
-*/
-
-/* Basic types*/
-// Number
-// String
-// Boolean
-
-// Numbers//
-// Integer
-// Floating Point
-// Complex
-
-//Intergers//
-// Signed Integer +
-// Unsigned Integer +/-
 
 
