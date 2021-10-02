@@ -52,4 +52,3 @@ func main() {
 	fmt.Println("y", *y)
 }
 
-
