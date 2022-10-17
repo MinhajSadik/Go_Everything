@@ -13,10 +13,10 @@ func main() {
 	profession := "programmer"
 	fmt.Println(name, name1, profession)
 
-	output := Algorithm.SequenceLength([]int{4, 7, 3, 8, 2, 1})
+	output := Algorithm.SequenceLength([]int{4, 5, 4})
 	fmt.Println(output)
 
-	output = Algorithm.SequenceLength([]int{4, 7, 3, 8, 2, 1, 9, 24, 10, 11})
+	output = Algorithm.SequenceLength([]int{4, 12, 5, 4, 3, 5, 4, 3, 8})
 	fmt.Println(output)
 
 	// Basic.Struct()
