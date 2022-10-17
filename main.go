@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main()  {
-	fmt.Println("Hello Dev!")
+	var name = "minhaj"
+	const name1 = "sadik"
+	profession:= "programmer"
+	fmt.Println(name, name1, profession)
+
 }
