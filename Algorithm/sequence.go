@@ -1,5 +1,9 @@
 package Algorithm
 
+import (
+	"fmt"
+)
+
 //Dices can have different number of sides. All sides are enumerate from 1 to n, where n is the number of sides.
 //Every dice can be put with only one side up, which is its current value.
 //Use as much as possible dises to make the longest possible numerical series (sequence of dice values without gaps and repetitions). Return the length of such numerical series.
@@ -21,27 +25,25 @@ func SequenceLength(input []int) int {
 
 	for i := 0; i < inputLen; i += 1 {
 		currentLen := 1
-		counter := 1
 
-		for i := 0; i < inputLen; i++ {
+		for {
 
-			value, ok := inputMap[input[i]+counter]
+			value, ok := inputMap[input[i]+currentLen]
 			if ok {
 				if value != 0 {
 					currentLen += value
 					break
 				} else {
 					currentLen += 1
-					counter += 1
 				}
 			} else {
 				break
 			}
 		}
-		// fmt.Println("value:", inputMap)
+		fmt.Println(":>>", currentLen)
 
 		if currentLen > ctr {
-			ctr = inputLen
+			ctr = currentLen
 		}
 
 		inputMap[input[i]] = currentLen
