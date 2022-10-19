@@ -11,8 +11,9 @@ type Programmers struct {
 	field string
 }
 
-func displayInfo(programmer Programmers) {
-	fmt.Printf("id:> %v, name:> %v, pType:> %v, field:> %v\n", programmer.id, programmer.name, programmer.pType, programmer.field)
+func displayInfo(programmer *Programmers) {
+	// fmt.Printf("id:> %v, name:> %v, pType:> %v, field:> %v\n", programmer.id, programmer.name, programmer.pType, programmer.field)
+	programmer.name = "SAM"
 }
 
 func (p *Programmers) changeName(name string) {
@@ -24,7 +25,9 @@ func Struct() {
 
 	minhaj := Programmers{1, "minhaj", "backend", "cse"}
 
-	displayInfo(minhaj)
+	displayInfo(&minhaj)
+
+	fmt.Println(minhaj)
 
 	minhaj.changeName("rahman")
 
