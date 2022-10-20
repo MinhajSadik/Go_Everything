@@ -20,4 +20,9 @@ func Slice() {
 	}
 
 	fmt.Println(programmers)
+
+	for index, programmer := range programmers {
+		fmt.Println(index)
+		fmt.Println(programmer)
+	}
 }

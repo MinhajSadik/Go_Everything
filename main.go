@@ -2,12 +2,9 @@ package main
 
 import (
 	"fmt"
+	"go_everything/Go/Advance"
 	"go_everything/Go/Basic"
 )
-
-func fn(index int) {
-	fmt.Printf("\ni is %v", index)
-}
 
 func main() {
 
@@ -26,6 +23,8 @@ func main() {
 	// Basic.Switch()
 	// Basic.Loop(fn, 23)
 	// Basic.Pointer()
-	Basic.Array()
-	// Basic.Slice()
+	// Basic.Array()
+	Basic.Slice()
+
+	Advance.Map()
 }
