@@ -27,4 +27,5 @@ func main() {
 	// Basic.Loop(fn, 23)
 	// Basic.Pointer()
 	Basic.Array()
+	// Basic.Slice()
 }
