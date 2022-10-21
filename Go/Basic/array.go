@@ -5,15 +5,16 @@ import "fmt"
 func Array() {
 	fmt.Println("Array Learning...")
 
-	programmers := [10]string{} //fixed value
+
+	programmers := [3]string{"minhaj", "ahmed", "sadik"}    //fixed value
+	programmers1 := [...]string{"minhaj", "ahmed", "sadik"} //actual value
 	// var programmers [10]string
 
-	var programmerName string
+	fmt.Println("start and end", programmers[1:2])
+	fmt.Println("end", programmers[:2])
+	fmt.Println("start", programmers[1:])
+	fmt.Println("nothing", programmers[:])
 
-	for i := 0; i < len(programmers); i++ {
-		fmt.Printf("Enter a programmer name:-")
-		fmt.Scan(&programmerName)
-	}
-
-	fmt.Println(programmers)
+	//capacity of array
+	fmt.Println("capacity", cap(programmers1))
 }

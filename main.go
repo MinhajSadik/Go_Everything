@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"go_everything/Go/Advance"
 	"go_everything/Go/Basic"
 )
 
@@ -22,9 +21,9 @@ func main() {
 	// Basic.Struct()
 	// Basic.Switch()
 	// Basic.Loop(fn, 23)
-	// Basic.Pointer()
-	// Basic.Array()
-	Basic.Slice()
+	Basic.Pointer()
+	// Basic.Variable()
+	// Basic.Slice()
 
-	Advance.Map()
+	// advance.Map()
 }
