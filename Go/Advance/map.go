@@ -3,11 +3,8 @@ package Advance
 import "fmt"
 
 func Map() {
+	population := map[string]int{}
+	population1 := make(map[string]int)
 
-	mep := map[string]string{
-		"id":   "1",
-		"name": "minhaj",
-	}
-
-	fmt.Println(mep)
+	fmt.Println(population, population1)
 }

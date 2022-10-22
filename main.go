@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"go_everything/Go/Random"
 )
 
 func main() {
@@ -30,6 +29,10 @@ func main() {
 	// Advance.Map()
 
 	//Random Practices
-	Random.Bufio()
+	// Random.Bufio()
+
+	ch := make(chan int)
+
+	fmt.Println("ch", ch)
 
 }
