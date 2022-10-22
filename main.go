@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go_everything/Go/Basic"
+	"go_everything/Go/Random"
 )
 
 func main() {
@@ -18,12 +18,18 @@ func main() {
 	// output = Algorithm.SequenceLength([]int{4, 12, 5, 4, 3, 5, 4, 3, 8})
 	// fmt.Println(output)
 
+	//Basic Practices
 	// Basic.Struct()
 	// Basic.Switch()
 	// Basic.Loop(fn, 23)
-	Basic.Pointer()
+	// Basic.Pointer()
 	// Basic.Variable()
 	// Basic.Slice()
 
-	// advance.Map()
+	//Advanced Practices
+	// Advance.Map()
+
+	//Random Practices
+	Random.Bufio()
+
 }
