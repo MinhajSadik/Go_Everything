@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go_everything/Go/Basic"
 )
 
 func main() {
@@ -24,6 +25,7 @@ func main() {
 	// Basic.Pointer()
 	// Basic.Variable()
 	// Basic.Slice()
+	Basic.Array()
 
 	//Advanced Practices
 	// Advance.Map()
